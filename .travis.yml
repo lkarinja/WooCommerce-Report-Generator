@@ -7,5 +7,5 @@ php:
 
 script:
   - phpunit wc-report-generator.php
-  - phpunit includes/formatter.php
+  - phpunit includes/
   
