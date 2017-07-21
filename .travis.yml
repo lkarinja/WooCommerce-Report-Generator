@@ -6,6 +6,5 @@ php:
   - 7.1
 
 script:
-  - phpunit wc-report-generator.php
-  - phpunit includes/
-  
+  - php -l wc-report-generator.php
+  - php -l includes/formatter.php
