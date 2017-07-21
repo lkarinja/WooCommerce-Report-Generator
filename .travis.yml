@@ -4,3 +4,8 @@ php:
   - 5.6
   - 7.0
   - 7.1
+
+script:
+  - phpunit wc-report-generator.php
+  - phpunit includes/formatter.php
+  
